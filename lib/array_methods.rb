@@ -4,10 +4,10 @@ end
 
 def find_max_value(array)
   array.sort
-  array.last
+  array.first
 end
 
 def find_min_value(array)
   array.sort
-  array.first
+  array.last
 end
